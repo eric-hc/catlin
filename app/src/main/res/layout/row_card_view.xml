@@ -20,43 +20,20 @@
 
         <ImageView
             android:id="@+id/imgVw_cat"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="@dimen/card_image_height"
+            android:layout_alignParentTop="true"
             android:layout_centerInParent="true"
             android:contentDescription="@string/cat_image"
             android:padding="4dp"
-            android:scaleType="fitCenter" />
-
-        <TextView
-            android:id="@+id/card_title"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/card_title_height"
-            android:layout_alignBottom="@+id/imgVw_cat"
-            android:layout_marginLeft="@dimen/md_keylines"
-            android:text="@string/item_title"
-            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
-
-        <TextView
-            android:id="@+id/card_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/imgVw_cat"
-            android:layout_marginBottom="@dimen/md_keylines"
-            android:layout_marginLeft="@dimen/md_keylines"
-            android:layout_marginRight="@dimen/md_keylines"
-            android:layout_marginTop="@dimen/md_keylines"
-            android:ellipsize="end"
-            android:singleLine="true"
-            android:text="@string/item_desc"
-            android:textColor="@color/dark_grey"
-            android:textSize="@dimen/article_subheading" />
+            android:scaleType="centerCrop" />
 
         <Button
             android:id="@+id/action_button"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/card_text"
+            android:layout_below="@+id/imgVw_cat"
             android:text="Action"
             android:textColor="?attr/colorPrimary" />
 
