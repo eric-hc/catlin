@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Catlin</string>
+    <string name="cat_image">Cat image</string>
+    <string name="item_title">Palais Garnier</string>
+    <string name="item_desc">Item description...
+    </string>
+    <string name="detail_desc">Lorem ipsum dolor sit amet...
+    </string>
+</resources>
